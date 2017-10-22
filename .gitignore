@@ -3,3 +3,5 @@ venv
 .cache/
 .idea/
 
+__pycache__/
+*.pyc

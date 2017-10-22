@@ -1,1 +1,2 @@
 export SPARK_MASTER=local[*]
+export JDBC_URL="derp"

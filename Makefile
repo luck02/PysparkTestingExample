@@ -6,7 +6,7 @@ setup:
 
 .PHONY: test
 test:
-	python -m pytest tests
+	python -m pytest --capture=no tests
 
 .PHONY: execute
 execute:
