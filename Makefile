@@ -1,4 +1,5 @@
-include ./env/variables
+include ./local_dev_env/*.env
+
 
 .PHONY: setup
 setup:
@@ -6,7 +7,7 @@ setup:
 
 .PHONY: test
 test:
-	python -m pytest --capture=no tests
+	python -m pytest --capture=no jobs
 
 .PHONY: execute
 execute:

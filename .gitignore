@@ -3,5 +3,7 @@ venv
 .cache/
 .idea/
 
+local_dev_env/secrets.env
+
 __pycache__/
 *.pyc
